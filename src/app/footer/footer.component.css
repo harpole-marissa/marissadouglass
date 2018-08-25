@@ -1,0 +1,12 @@
+footer {
+    bottom: 0px;
+    position: absolute;
+    padding-bottom: 10px;
+    width: 100%;
+}
+footer a {
+    display: inline-block;
+    width: 100px;
+    color: #6CA9C1;
+    text-decoration: none;
+}
