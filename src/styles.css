@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Noto Sans';
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+app-root {
+    display: grid;
+    grid-template-rows: 50px 90vh 50px;
+    justify-content: stretch;
+    align-content: stretch;
+}
+app-header-intro {
+    width: 100%;
+    background-color: #6CA9C1;
+    color: white;
+    
+}
+a {
+    color: #6CA9C1;
+    text-decoration: none;
+}
+app-footer {
+    width: 100%;
+    margin: 10px;
+    color: #bbb;
+}
+app-footer p {
+    margin: 0px;
+    margin-left: 10px;
+}
