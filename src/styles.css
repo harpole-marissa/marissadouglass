@@ -6,20 +6,29 @@ body {
 }
 app-root {
     display: grid;
-    grid-template-rows: 50px 90vh 50px;
+    grid-template-rows: 50px auto 50px;
     justify-content: stretch;
     align-content: stretch;
 }
-app-header-intro {
+app-header {
+    border-bottom: 1px solid #6CA9C1;
+}
+app-homepage-intro {
     background-color: #6CA9C1;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+h3, h5 {
+    color: #6CA9C1;
+}
 a {
     color: #6CA9C1;
     text-decoration: none;
+}
+app-resume {
+    padding: 10px;
 }
 app-footer {
     width: 100%;
