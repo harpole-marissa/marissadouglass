@@ -2,6 +2,7 @@ import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { HomepageIntroComponent } from './homepage-intro/homepage-intro.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
@@ -9,7 +10,7 @@ import { AboutComponent } from './about/about.component';
 export const router: Routes = [
     {
         path: '',
-        redirectTo: '',
+        component: HomepageIntroComponent,
         pathMatch: "full"
     },
     {
