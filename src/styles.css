@@ -3,39 +3,52 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    min-height: 100vh;
+}
+section {
+    padding: 50px 200px;
 }
 app-root {
     display: grid;
-    grid-template-rows: 50px auto 50px;
+    /* grid-template-rows: 50px auto 50px; */
     justify-content: stretch;
     align-content: stretch;
 }
 app-header {
-    border-bottom: 1px solid #6CA9C1;
+    height: 50px;
+    border-bottom: 1px solid rgba(108,169,193, 0.8);
 }
 app-homepage-intro {
-    background-color: #6CA9C1;
+    background: rgb(108,169,193);
+    /* background: linear-gradient(90deg, rgba(108,169,193,1) 0%, rgba(148,193,108,1) 100%); */
     color: white;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h3, h5 {
+app-homepage-intro,
+app-about,
+app-resume,
+app-portfolio {
+    min-height: calc(100vh - 100px);
+}
+app-footer {
+    height: 25px;
+    width: 100%;
+    color: #bbb;
+    border-top: 1px solid rgba(108,169,193, 0.5);
+}
+app-footer p {
+    margin: 10px;
+}
+
+/* Text */
+h3, 
+h5,
+a {
     color: #6CA9C1;
 }
 a {
-    color: #6CA9C1;
     text-decoration: none;
-}
-app-resume {
-    padding: 10px;
-}
-app-footer {
-    width: 100%;
-    margin: 10px;
-    color: #bbb;
-}
-app-footer p {
-    margin: 0px;
-    margin-left: 10px;
 }
