@@ -8,6 +8,11 @@ import { HomepageIntroComponent } from './homepage-intro/homepage-intro.componen
 import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
+import { SlideManagementComponent } from './portfolio/slide-management/slide-management.component';
+import { ProdDiscountProgramComponent } from './portfolio/prod-discount-program/prod-discount-program.component';
+import { QuickViewComponent } from './portfolio/quick-view/quick-view.component';
+import { FiltersComponent } from './portfolio/filters/filters.component';
+import { PortfolioSnippetsComponent } from './portfolio/portfolio-snippets/portfolio-snippets.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { AboutComponent } from './about/about.component';
     HomepageIntroComponent,
     ResumeComponent,
     PortfolioComponent,
-    AboutComponent
+    AboutComponent,
+    SlideManagementComponent,
+    ProdDiscountProgramComponent,
+    QuickViewComponent,
+    FiltersComponent,
+    PortfolioSnippetsComponent
   ],
   imports: [
     BrowserModule,

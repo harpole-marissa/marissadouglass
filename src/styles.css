@@ -33,6 +33,11 @@ app-resume,
 app-portfolio {
     min-height: calc(100vh - 100px);
 }
+/* app-portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+} */
 app-footer {
     height: 25px;
     width: 100%;
