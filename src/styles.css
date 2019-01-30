@@ -1,5 +1,5 @@
 body {
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
@@ -16,10 +16,11 @@ app-root {
 }
 app-header {
     height: 50px;
-    border-bottom: 1px solid rgba(108,169,193, 0.8);
+    background: rgb(41, 41, 41);
+    /* border-bottom: 1px solid rgba(108,169,193, 0.8); */
 }
 app-homepage-intro {
-    background: rgb(108,169,193);
+    background: rgb(41, 41, 41);
     /* background: linear-gradient(90deg, rgba(108,169,193,1) 0%, rgba(148,193,108,1) 100%); */
     color: white;
     height: auto;
